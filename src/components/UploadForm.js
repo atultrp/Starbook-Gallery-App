@@ -23,9 +23,9 @@ const UploadForm = () => {
 
     return (
         <>
-            <div className="input-group mb-3 parent-div">
+            <div className="input-group mb-3 btn btn-info btn-file">
+                Upload Image..
                 <input type="file" className="form-control" id="inputGroupFile02" name="upfile" onChange={handleChange} />
-                <label className="input-group-text" htmlFor="inputGroupFile02">Upload</label>
             </div>
             <div className="output">
                 {error && <div className='text-danger'>{error}</div>}

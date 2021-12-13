@@ -1,6 +1,37 @@
 /* CSS Styling */
 
+/* Input Styling */
 
+.btn-file {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    width: 10rem;
+  }
+
+  .btn-file:hover{
+      color: white;
+      opacity: 0.9;
+  }
+
+  .btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: center;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    visibility: none;
+    cursor: inherit;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
 
 /* Image Grid Styling */
 

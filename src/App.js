@@ -10,12 +10,14 @@ function App() {
   const [selectedImg, setSelectedImg] = useState(null);
 
   return (
-    <div className='container'>
+    <>
       <Header />
-      <UploadForm />
-      <ImageGrid setSelectedImg={setSelectedImg} />
-      {selectedImg && <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />}
-    </div>
+      <div className='container text-center'>
+        <UploadForm />
+        <ImageGrid setSelectedImg={setSelectedImg} />
+        {selectedImg && <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />}
+      </div>
+    </>
   );
 }
 
