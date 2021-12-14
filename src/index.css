@@ -40,7 +40,7 @@
     height: auto;
     border-radius: 4px;
     background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
     width: 400px;
     height: 300px;
     object-fit: cover;
@@ -50,10 +50,13 @@
     opacity: 1;
 }
 
-.img-wrap:hover{
-    opacity: 0.8;
+.img-wrap:hover img{
+    /* opacity: 0.8; */
     cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+    object-fit: cover;
 }
+
 
 @media only screen and (max-width: 768px){
     .img-wrap img {
