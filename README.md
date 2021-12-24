@@ -1,6 +1,6 @@
 # ✨️ Starbook Gallery
 ## 🌀️ Pictures Collection
-👉🏻️ Basically, this application is a picuter collection app in which you can upload you pictures collection by clicking the upload button. Click on images to overview the full image.
+👉🏻️ Basically, this application is a picture collection app in which you can upload you pictures collection by clicking the upload button. Click on images to overview the full image.
 
 https://user-images.githubusercontent.com/69186169/146053830-75f817cc-ccba-4777-8a69-7726e9f0a22e.mp4
 
