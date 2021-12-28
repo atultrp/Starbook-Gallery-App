@@ -43,8 +43,8 @@ const RegistorUser = (props) => {
                     <input type="password" class="form-control" id="exampleInputPassword1" name="password" value={credentials.password} onChange={handleChange} />
                     <div class="form-text text-danger">If you are new then please signup!</div>
                 </div>
-                <div className="d-flex">
-                    <button type="submit" class="btn btn-primary mx-2 " onClick={login}>Login</button>
+                <div className="d-flex mx-5">
+                    <button type="submit" class="btn btn-primary mx-4 " onClick={login}>Login</button>
                     <button type="submit" class="btn btn-success mx-2" onClick={signup}>Signup</button>
                 </div>
             </form>
